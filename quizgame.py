@@ -1,4 +1,5 @@
-print("Welcome To Quiz Game")
+name = input("Enter your name:").upper()
+print("HELLO!! ",name,". WELCOME TO QUIZ GAME")
 play = input("do you want to play a game? ").lower()
 if play !="yes":
     quit()
@@ -74,6 +75,6 @@ if answer =="chennai":
 else:
     print("incorrect")
 
-print("you got ",score,"scores in this quiz game")
-print("you got",(score/10)*100,"%.")
+print(name,", you got ",score,"scores in this quiz game")
+print(name,", you got",(score/10)*100,"%.")
 
